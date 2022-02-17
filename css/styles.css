@@ -123,6 +123,16 @@ img {
   color: var(--accent-page-color);
 }
 
+.mail-icon {
+  margin-right: 10px;
+  width: 16px;
+  height: 12px;
+  cursor: pointer;
+}
+.mail-icon:hover,
+.mail-icon:focus {
+  fill: var(--accent-page-color);
+}
 /*==============MAIN CSS==============*/
 
 /*==============HERO SECTION==============*/
