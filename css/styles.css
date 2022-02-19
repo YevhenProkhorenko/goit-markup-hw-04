@@ -344,6 +344,16 @@ img {
 .social-list-link:hover .social-list-icon {
   fill: var(--header-border-color);
 }
+/*==============CLIENTS SECTION==============*/
+.clients {
+  display: flex;
+}
+.clients-list {
+  width: 170px;
+}
+.clients:not(:last-child) {
+  margin-right: 30px;
+}
 /*==============FOOTER SECTION==============*/
 .address {
   font-style: normal;
