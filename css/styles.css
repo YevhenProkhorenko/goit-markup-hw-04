@@ -10,6 +10,7 @@
   --portfolio-border-color: #eeeeee;
   --header-border-color: #ececec;
   --hero-footer-color: #2f303a;
+  --social-icon-color: #afb1b8;
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
   --first-card-shadow: rgba(0, 0, 0, 0.12);
   --second-card-shadow: rgba(0, 0, 0, 0.14);
@@ -313,6 +314,35 @@ img {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 16px;
+}
+.social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-list-icon {
+  fill: var(--social-icon-color);
+}
+
+.social-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+.social-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.social-list-link:focus,
+.social-list-link:hover {
+  background-color: var(--accent-page-color);
+}
+.social-list-link:focus .social-list-icon,
+.social-list-link:hover .social-list-icon {
+  fill: var(--header-border-color);
 }
 /*==============FOOTER SECTION==============*/
 .address {
