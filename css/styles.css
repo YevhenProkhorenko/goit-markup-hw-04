@@ -3,6 +3,8 @@
   --primary-text-color: #757575;
   --secondary-text-color: #212121;
   --accent-page-color: #2196f3;
+  --hero-background-color: #c4c4c4;
+  --hero-gradient-color: rgba(47, 48, 58, 0.4);
   --team-section-color: #f5f4fa;
   --background-button-color: #188ce8;
   --portfolio-border-color: #eeeeee;
@@ -137,11 +139,15 @@ img {
 /*==============HERO SECTION==============*/
 
 .hero {
-  background-color: var(--hero-footer-color);
+  background-image: url(../images/bg-hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: var(--hero-background-color);
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
 }
+
 .main-tittle {
   margin-left: auto;
   margin-right: auto;
