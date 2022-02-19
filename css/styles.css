@@ -123,25 +123,17 @@ img {
   color: var(--accent-page-color);
 }
 
-.mail-icon {
+.header-icon {
   margin-right: 10px;
-  width: 16px;
-  height: 12px;
   cursor: pointer;
 }
-.mail-icon:hover,
-.mail-icon:focus {
+.header-icon:hover,
+.header-icon:focus {
   fill: var(--accent-page-color);
 }
 .cellphone-icon {
   margin-right: 10px;
-  width: 10px;
-  height: 16px;
   cursor: pointer;
-}
-.cellphone-icon:hover,
-.cellphone-icon:focus {
-  fill: var(--accent-page-color);
 }
 
 /*==============MAIN CSS==============*/
