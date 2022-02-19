@@ -358,12 +358,23 @@ img {
 .clients-icon {
   width: 106px;
   height: 60px;
+  fill: var(--social-icon-color);
 }
 .clients-card {
   padding: 16px 32px;
-  border: 1px solid #afb1b8;
+  border: 1px solid var(--social-icon-color);
   box-sizing: border-box;
   border-radius: 4px;
+}
+.clients-card:hover,
+.clients-card:focus {
+  border: 1px solid var(--accent-page-color);
+  cursor: pointer;
+}
+
+.clients-card:hover .clients-icon,
+.clients-card:focus .clients-icon {
+  fill: var(--accent-page-color);
 }
 /*==============FOOTER SECTION==============*/
 .address {
