@@ -131,10 +131,6 @@ img {
 .header-icon:focus {
   fill: var(--accent-page-color);
 }
-.cellphone-icon {
-  margin-right: 10px;
-  cursor: pointer;
-}
 
 /*==============MAIN CSS==============*/
 
