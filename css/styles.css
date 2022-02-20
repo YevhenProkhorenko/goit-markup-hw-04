@@ -11,6 +11,7 @@
   --header-border-color: #ececec;
   --hero-footer-color: #2f303a;
   --social-icon-color: #afb1b8;
+  --background-social-icon: rgba(255, 255, 255, 0.1);
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
   --first-card-shadow: rgba(0, 0, 0, 0.12);
   --second-card-shadow: rgba(0, 0, 0, 0.14);
@@ -430,6 +431,13 @@ img {
 }
 .footer-social-container .social-list-icon {
   fill: var(--primary-page-color);
+}
+.footer-social-container .social-list-link {
+  background-color: var(--background-social-icon);
+}
+.footer-social-container .social-list-link:hover,
+.footer-social-container .social-list-link:focus {
+  background-color: var(--accent-page-color);
 }
 
 /*==============PORTFOLIO CSS==============*/
