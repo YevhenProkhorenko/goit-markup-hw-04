@@ -439,6 +439,10 @@ img {
 .footer-social-container .social-list-link:focus {
   background-color: var(--accent-page-color);
 }
+.footer-social-container .social-list-link:hover .social-list-icon,
+.footer-social-container .social-list-link:focus .social-list-icon {
+  fill: var(--primary-page-color);
+}
 
 /*==============PORTFOLIO CSS==============*/
 .portfolio-button {
