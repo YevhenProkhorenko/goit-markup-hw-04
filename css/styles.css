@@ -416,6 +416,21 @@ img {
 .footer-text-margin:not(:last-child) {
   margin-bottom: 9px;
 }
+.footer-wrapper {
+  display: flex;
+  align-items: baseline;
+}
+.footer-social-container {
+  width: 206px;
+  height: 80px;
+  margin-left: 70px;
+}
+.footer-social-container .secondary-tittle {
+  color: var(--primary-page-color);
+}
+.footer-social-container .social-list-icon {
+  fill: var(--primary-page-color);
+}
 
 /*==============PORTFOLIO CSS==============*/
 .portfolio-button {
