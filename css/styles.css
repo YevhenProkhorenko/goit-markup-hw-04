@@ -107,8 +107,18 @@ img {
   display: flex;
   margin-left: auto;
 }
-.mail-margin {
+.contacts-margin:not(:last-child) {
   margin-right: 50px;
+}
+.contacts-margin:hover,
+.mail-margin:focus {
+  fill: var(--accent-page-color);
+  color: var(--accent-page-color);
+}
+.contacts-margin:hover .text-contacts,
+.contacts-margin:focus .text-contacts {
+  fill: inherit;
+  color: inherit;
 }
 .nav-list {
   display: flex;
