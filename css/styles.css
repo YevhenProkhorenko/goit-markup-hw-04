@@ -110,16 +110,7 @@ img {
 .contacts-margin:not(:last-child) {
   margin-right: 50px;
 }
-.contacts-margin:hover,
-.mail-margin:focus {
-  fill: var(--accent-page-color);
-  color: var(--accent-page-color);
-}
-.contacts-margin:hover .text-contacts,
-.contacts-margin:focus .text-contacts {
-  fill: inherit;
-  color: inherit;
-}
+
 .nav-list {
   display: flex;
   align-items: center;
@@ -127,22 +118,26 @@ img {
 .nav-list-item:not(:last-child) {
   margin-right: 50px;
 }
-.text-contacts {
+.contacts-link {
+  display: flex;
+  align-items: center;
   font-family: inherit;
   color: var(--primary-text-color);
   text-decoration: none;
 }
-.text-contacts:focus,
-.text-contacts:hover {
+.contacts-link:focus,
+.contacts-link:hover {
   color: var(--accent-page-color);
 }
 
 .header-icon {
+  fill: var(--primary-text-color);
   margin-right: 10px;
   cursor: pointer;
 }
-.header-icon:hover,
-.header-icon:focus {
+
+.contacts-link:focus .header-icon,
+.contacts-link:hover .header-icon {
   fill: var(--accent-page-color);
 }
 
@@ -151,6 +146,9 @@ img {
 /*==============HERO SECTION==============*/
 
 .hero {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--h1ero-footer-color);
   padding-top: 200px;
   padding-bottom: 200px;
