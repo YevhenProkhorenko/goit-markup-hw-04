@@ -248,7 +248,6 @@ img {
 }
 
 .secondary-tittle {
-  min-width: 270px;
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -422,9 +421,14 @@ img {
   align-items: baseline;
 }
 .footer-social-container {
-  width: 206px;
-  height: 80px;
   margin-left: 70px;
+}
+.footer-social-container .secondary-tittle {
+  margin-bottom: 20px;
+}
+.footer-social-list {
+  display: flex;
+  align-items: center;
 }
 .footer-social-container .secondary-tittle {
   color: var(--primary-page-color);
