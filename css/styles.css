@@ -215,15 +215,18 @@ img {
 }
 
 .advantages-icons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 30px;
+  width: 70px;
+  height: 70px;
 }
 .advantages-icon-box {
   width: 270px;
   height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
   background-color: var(--team-section-color);
+  border-radius: 4px;
 }
 .advantages-icon-box:not(:last-child) {
   margin-right: 30px;
